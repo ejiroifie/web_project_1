@@ -232,7 +232,7 @@ padding-bottom: 20px;
    align-items: center;
    top:90px;
    bottom:90px;
-   background-color: #000000  
+   background-color: #000000;
 }
 
 .section-title__theme_dark {
@@ -241,7 +241,7 @@ padding-bottom: 20px;
   line-height:69px;
   font-weight: bold;
   margin: auto 0; 
-  color: #F2F2F2 ;
+  color: #F2F2F2;
 }
 
 .section-subtitle__theme_dark {
@@ -249,19 +249,17 @@ padding-bottom: 20px;
   line-height:34px;
   font-weight: normal;
   text-align: center;
-  color: #F2F2F2 ;
+  color: #F2F2F2;
   
 }
 
 
 .table_cell_theme_dark {
-
   width: 200px;
   margin: 0 auto;
   top:90px;
-  color: #F2F2F2 ;
+  color: #F2F2F2;
   bottom:90px;
- 
 }
 
 .kaufman_triangle {
