@@ -93,7 +93,7 @@
   display: flex; 
   justify-content: space-between;
   width:80%;
-  margin: auto;  
+  margin: 0 auto;  
 }
 
 .two-columns__brief {
