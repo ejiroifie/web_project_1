@@ -45,6 +45,8 @@
   font-family: "Helvetica Neue","Arial","sans-serif"; 
 }
 
+
+
 .header__subtitle{
   position:absolute;
   line-height: 25px;
@@ -52,6 +54,13 @@
   font-weight: normal;
   bottom:30px;
   left: 64px;
+}
+
+
+.header__link {
+  line-height: 25px;
+  font-size:normal;
+  font-weight:normal;
 }
 
 .header_main-illustration {
@@ -316,7 +325,7 @@ padding-bottom: 20px;
 
 
 .logo_place_footer {
-  background-image:url("./images/logo_place_footer");
+  background-image:url(./images/logo_place_footer.png);
   width:183px;
   height: 35px;
   padding:0;
