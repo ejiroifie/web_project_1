@@ -14,10 +14,10 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   position: relative;
   background-color: #F2F2F2;
+  z-index:1;
     
   /* parameters for the header section */
 }
@@ -37,14 +37,15 @@
 
 .header__title {
   width: 730px;
-  left:64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
   display:flex;
-  text-align: left;
-  justify-content: left;
+  justify-content: center;
+  margin-left:64px;
   font-family: "Helvetica Neue","Arial","sans-serif"; 
+  margin: 0;
+  
 }
 
 
@@ -73,7 +74,6 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 1;
   width:756px;
   height:608px;
 }
@@ -87,6 +87,7 @@
   top:64px;
   right:0;
   background: #2F80ED;
+  z-index:-1;
 }
 
 /* including elements with key-value modifiers */
