@@ -41,7 +41,9 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  position:absolute;
+  display:flex;
+  text-align: left;
+  justify-content: left;
   font-family: "Helvetica Neue","Arial","sans-serif"; 
 }
 
@@ -63,6 +65,8 @@
   line-height: 25px;
   font-size:normal;
   font-weight:normal;
+  color:#2F80ED;
+
 }
 
 .header__main-illustration {
@@ -194,6 +198,7 @@ padding-bottom: 20px;
   position: relative; 
   background-color: #F2F2F2;
   
+  
 }
 
 .feynman__title {
@@ -250,9 +255,11 @@ padding-bottom: 20px;
    flex-direction: column;
    align-items: center;
    padding-top:90px;
-   bottom:90px;
    overflow: hidden;
    background-color: #1F1F1F;
+   position: relative;
+   z-index:0;
+   
   
 }
 
@@ -286,11 +293,12 @@ padding-bottom: 20px;
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
-  z-index:0;
+  z-index:-1;
   width:660px;
   height:636px;
-  right:0;
-  padding-top: 0;  
+  right:-210px;
+  bottom:0;
+  padding-top: 0;
   
 }
 
@@ -332,7 +340,7 @@ padding-bottom: 20px;
   font-weight:normal;
   padding: 0;
   text-decoration: none;
-  color: white;
+  color:	#ffffff ;
 
 }
 
@@ -365,9 +373,10 @@ padding-bottom: 20px;
   line-height:30px;
   font-size:18px;
   font-weight:normal;
-  list-style-type: none;
+  text-decoration: none;
   width:16px;
   height:16px;
+  color: 	#ffffff ;
 }
 
  
