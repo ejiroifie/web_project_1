@@ -270,10 +270,10 @@ padding-bottom: 20px;
 
 .table_cell_theme_dark {
   width: 200px;
-  margin: 0 auto;
   top: 90px;
   bottom:90px;
   color:#f2f2f2;
+  margin: 0 auto;
 }
 
 .section-subtitle_theme_dark {
