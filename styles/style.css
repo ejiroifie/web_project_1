@@ -112,12 +112,12 @@
   color: #2F80ED;
   line-height: 1.2;
   font-size: 18px;
-  width: 175px; 
+  width: 175px;
   font-weight: normal;
   margin: 0;
- }
+}
 
- .two-columns__main-text{
+ .two-columns__main-text {
   width:80%;
   line-height:34px;
   font-size: 24px;
@@ -146,15 +146,15 @@
   align-items: center;
  }
 
-  .section-title {
-    line-height:69px;
-    font-size: 60px;
-    font-weight: bold;
-    width: 60%;
-    text-align: center; 
-    margin: 0;  
-    padding-bottom: 20px;
-}
+ .section-title {
+   line-height: 69px;
+   font-size: 60px;
+   font-weight: bold;
+   width: 60%;
+   text-align: center;
+   margin: 0;
+   padding-bottom: 20px;
+ }
 
 .section-subtitle {
 
@@ -357,11 +357,11 @@ margin: 0;
   margin: 18px 0;  
 }
 
-.footer__column-heading {
+.footer__column-heading{
   font-size: 18px;
   line-height: 30px;
-  font-weight: bold; 
-  margin: 0; 
+  font-weight: bold;
+  margin: 0;
 }
 
 .footer__social-icons {
