@@ -91,12 +91,9 @@
 }
 
 /* including elements with key-value modifiers */
-.table_cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
+
+
 
 .description{
 
@@ -240,8 +237,6 @@ padding-bottom: 20px;
   position: absolute;
   left: 0;
   bottom: 0;
-
-
 }
 
 
@@ -253,9 +248,7 @@ padding-bottom: 20px;
    overflow: hidden;
    background-color: #1F1F1F;
    position: relative;
-   z-index:0;
-   
-  
+   z-index:0; 
 }
 
 .section-title_theme_dark {
@@ -266,6 +259,8 @@ padding-bottom: 20px;
   color: #F2F2F2;
   margin:0 auto; 
 }
+
+
 
 .table_cell_theme_dark {
   width: 200px;
