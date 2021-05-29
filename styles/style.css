@@ -226,14 +226,14 @@ margin: 0;
   
 }
 
-.feynman__subtitle{
+.feynman__subtitle {
   line-height: 51px;
-  font-size: 36px;      
-  font-weight:normal;
+  font-size: 36px;
+  font-weight: normal;
   position: relative;
-  z-index: 1;                    
+  z-index: 1;
   text-align: center;
-  margin: 70px 0 0 0;    /***as instructed padding should be changed to margin***/     
+  margin: 70px 0 0 0;  /***as instructed padding should be changed to margin***/     
 }
 
 .feynman__link{
@@ -246,7 +246,6 @@ margin: 0;
   right: 48px;
   top:50%;
   text-decoration: none;
-  
 }
 
 .feynman__image{
