@@ -53,6 +53,7 @@
   left: 64px;
   width: 388px;
   margin: 0 auto;
+  z-index: 1; /***subtitle now displays when set to 1100px ***/
 }
 
 .header__link {
@@ -142,8 +143,7 @@
   font-weight: bold;
   width: 60%;
   text-align: center;
-  margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .section-subtitle {
@@ -159,8 +159,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1100px;
-  margin: auto;
-  padding-top: 60px;
+  margin: 0 auto;
   padding-bottom: 100px;
   display: flex;
 }
@@ -178,11 +177,12 @@
   font-weight: normal;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin: 0;
+  margin-top: 20px;
 }
 
 .table__cell {
   width: 250px;
+  margin-top: 60px;
 }
 
 .feynman {
@@ -253,10 +253,20 @@
   margin: 0 auto;
 }
 
+.table_theme_dark {
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 90px; /**padding bottom adjusted **/
+}
+
 .table_cell_theme_dark {
   width: 200px; /***padding removed as instucted, also not in the brief****/
   color: #f2f2f2;
-  margin: 0 auto;
+  margin-top: 80px; /** margin adjusted ***/
+}
+
+.table_text_theme_dark {
+  padding-bottom: 0;
 }
 
 .section-subtitle_theme_dark {
@@ -286,6 +296,7 @@
   padding-top: 60px;
   padding-bottom: 40px;
   box-sizing: border-box;
+  display: flex;
 }
 
 .footer__columns {
@@ -293,6 +304,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  min-height: 250px;
 }
 
 .footer__column {
