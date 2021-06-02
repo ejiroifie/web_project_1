@@ -143,7 +143,7 @@
   font-weight: bold;
   width: 60%;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0; /***top margin adjusted**/
 }
 
 .section-subtitle {
@@ -175,9 +175,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 20px;
+  margin: 20px 0 0 0; /**paddings removed to match specifications**/
 }
 
 .table__cell {
@@ -246,11 +244,7 @@
 }
 
 .section-title_theme_dark {
-  width: 60%;
-  line-height: 69px;
-  font-weight: bold; /**padding also removed***/
-  color: #f2f2f2;
-  margin: 0 auto;
+  color: #f2f2f2; /**modifier values corrected***/
 }
 
 .table_theme_dark {
@@ -270,11 +264,7 @@
 }
 
 .section-subtitle_theme_dark {
-  width: 60%;
-  line-height: 34px;
-  font-weight: normal;
-  text-align: center;
-  color: #f2f2f2;
+  color: #f2f2f2; /** code corrected as modifier should not be used on its own  **/
 }
 
 .kaufman__triangle {
@@ -363,4 +353,4 @@
   height: 16px;
 }
 
-/** I made these comments as there were initial concerns that i wasn't paying attention to the correction but i actually was, please see adjustment and thanks for the review***/
+/** I made these comments as there were initial concerns that i wasn't paying attention to the correction. Latest corrections already updated***/
